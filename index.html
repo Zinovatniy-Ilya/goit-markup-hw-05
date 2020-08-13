@@ -42,8 +42,8 @@
         <section class="hero">
             <div class="hero-2">
                 <h1 class="efect-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-                <div     data-modal-open class="button-centered">
-                    <a href="" class="button-hero">Заказать услугу</a>
+                <div class="button-centered" data-modal-open>
+                    <button class="button-hero">Заказать услугу</button>
                 </div>
             </div>
         </section>
@@ -341,14 +341,15 @@
             </div>
         </div>
     </footer>
-    <div class="backdrop is-hidden">
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <div class="modal-end" data-modal-close>
-                <svg class="icon-modal" style="width: 11px; height:11px;">
+                <svg class="icon-modal" style="width: 10px; height:10px;">
                     <use href="./picture/svg/symbol-defs.svg#icon-krest-modal"></use>
                 </svg>
             </div>
         </div>
     </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
